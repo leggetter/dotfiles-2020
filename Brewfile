@@ -14,29 +14,35 @@ brew 'unrar'
 brew 'youtube-dl'
 brew 'hugo'
 
-cask 'handbrake'
-cask 'transmission'
 cask 'vlc'
-cask 'ngrok'
-cask 'iterm2'
-
-cask 'slack'
 cask 'google-chrome'
-cask 'alfred'
-cask 'bartender'
-cask 'fork'
-cask 'camtasia'
 cask 'amazon-music'
 cask 'google-drive-file-stream'
-cask 'caffeine'
-cask 'clipgrab'
-cask '1password'
 cask 'the-unarchiver'
-cask 'spectacle'
-cask 'visual-studio-code'
 
+# mac customisation
+cask 'alfred'
+cask 'bartender'
+cask 'spectacle'
 cask 'muzzle'
 cask 'rocket'
-cask 'twist'
 cask 'scroll-reverser'
 cask 'switchresx'
+cask 'caffeine'
+
+# communications
+cask 'twist'
+cask 'slack'
+
+# development
+cask 'visual-studio-code'
+cask 'fork'
+cask 'ngrok'
+cask 'iterm2'
+cask 'postman'
+
+# utilities
+cask 'clipgrab'
+cask '1password'
+cask 'handbrake'
+cask 'transmission'

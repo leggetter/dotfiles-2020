@@ -2,12 +2,6 @@
 
 echo "Setting up your Mac..."
 
-export ZSH=~/.oh-my-zsh
-
-if [ ! -d $ZSH ]; then
-  git clone https://github.com/robbyrussell/oh-my-zsh.git $ZSH
-fi
-
 # Check for Homebrew and install if we don't have it
 if test ! $(which brew); then
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -19,6 +13,9 @@ brew update
 # Install all our dependencies with bundle (See Brewfile)
 brew tap homebrew/bundle
 brew bundle
+
+# Install or update via Homebrew
+./homebrew.sh
 
 # Clone Github repositories
 ./clone.sh
