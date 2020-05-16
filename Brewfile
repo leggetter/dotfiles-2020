@@ -14,6 +14,10 @@ brew 'unrar'
 brew 'youtube-dl'
 brew 'hugo'
 
+brew 'asdf'
+brew 'gnupg'
+brew 'gnupg2'
+
 cask 'vlc'
 cask 'google-chrome'
 cask 'amazon-music'
