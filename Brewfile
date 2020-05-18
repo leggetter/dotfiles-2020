@@ -47,6 +47,7 @@ cask 'postman'
 
 # utilities
 cask 'clipgrab'
+cask 'kap'
 cask '1password'
 cask 'handbrake'
 cask 'transmission'
