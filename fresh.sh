@@ -6,6 +6,8 @@ echo "Setting up your Mac..."
 
 ./oh-my-zsh-setup.sh
 
+./ssh-config-setup.sh
+
 # Clone Github repositories
 ./clone.sh
 
