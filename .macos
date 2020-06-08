@@ -157,7 +157,7 @@ defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 
 # Set a blazingly fast keyboard repeat rate
 # 2 is the lowest exposed through the UI
-defaults write NSGlobalDomain KeyRepeat -int 5
+defaults write NSGlobalDomain KeyRepeat -int 2
 # 15 is the UI default
 defaults write NSGlobalDomain InitialKeyRepeat -int 12
 
