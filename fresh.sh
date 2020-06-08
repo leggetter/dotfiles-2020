@@ -8,6 +8,9 @@ echo "Setting up your Mac..."
 
 ./ssh-config-setup.sh
 
+# Global Git
+./git-setup.sh
+
 # Clone Github repositories
 ./clone.sh
 
