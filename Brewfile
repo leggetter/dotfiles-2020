@@ -40,11 +40,14 @@ cask 'twist'
 cask 'slack'
 
 # development
+brew 'yarn'
 cask 'visual-studio-code'
 cask 'fork'
 cask 'ngrok'
 cask 'iterm2'
 cask 'postman'
+cask 'firefox'
+cask 'runjs'
 
 # utilities
 cask 'clipgrab'
