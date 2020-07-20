@@ -10,7 +10,7 @@ if [ ! -d "$HOME/.oh-my-zsh" ]; then
 fi
 
 # asdf
-if [[ $(asdf list nodejs) != *$(No such plugin) ]]; then
+if [[ $(asdf list python 2>&1) == "No such plugin"* ]]; then
     asdf plugin-add nodejs
     bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
 else
