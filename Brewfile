@@ -13,6 +13,7 @@ brew 'openssl'
 brew 'unrar'
 brew 'youtube-dl'
 brew 'hugo'
+brew 'tree'
 
 brew 'asdf'
 brew 'gnupg'
