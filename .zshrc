@@ -111,3 +111,23 @@ export LANG=en_US.UTF-8
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 . $(brew --prefix asdf)/asdf.sh
+
+export ANDROID_HOME=~/Library/Android/sdk
+export ANDROID_SDK_ROOT=~/Library/Android/sdk
+export ANDROID_AVD_HOME=~/.android/avd
+
+eval "$(rbenv init -)"
+
+monomerge() {
+    open "https://gitlab.com/4auth/devx/mono/-/merge_requests/new?merge_request[target_branch]=main&merge_request[source_branch]=developer.tru.qa"
+}
+
+listening() {
+    if [ $# -eq 0 ]; then
+        sudo lsof -iTCP -sTCP:LISTEN -n -P
+    elif [ $# -eq 1 ]; then
+        sudo lsof -iTCP -sTCP:LISTEN -n -P | grep -i --color $1
+    else
+        echo "Usage: listening [pattern]"
+    fi
+}
