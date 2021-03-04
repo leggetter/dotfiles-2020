@@ -48,6 +48,7 @@ cask 'iterm2'
 cask 'postman'
 cask 'firefox'
 cask 'runjs'
+cask 'adoptopenjdk8'
 
 # utilities
 cask 'clipgrab'
