@@ -36,7 +36,6 @@ cask 'switchresx'
 cask 'caffeine'
 
 # communications
-cask 'twist'
 cask 'slack'
 
 # development
