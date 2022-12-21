@@ -129,3 +129,5 @@ listening() {
         echo "Usage: listening [pattern]"
     fi
 }
+
+export GPG_TTY=$(tty)
