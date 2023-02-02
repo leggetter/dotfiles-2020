@@ -12,12 +12,12 @@ brew 'imagemagick'
 brew 'openssl'
 brew 'unrar'
 brew 'youtube-dl'
-brew 'hugo'
 brew 'tree'
 
 brew 'asdf'
 brew 'gnupg'
 brew 'gnupg2'
+brew 'pnpm'
 
 cask 'vlc'
 cask 'google-chrome'
@@ -39,7 +39,6 @@ cask 'caffeine'
 cask 'slack'
 
 # development
-brew 'yarn'
 cask 'visual-studio-code'
 cask 'fork'
 cask 'ngrok'
