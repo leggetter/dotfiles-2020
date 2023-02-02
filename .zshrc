@@ -110,7 +110,7 @@ export LANG=en_US.UTF-8
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-. $(brew --prefix asdf)/asdf.sh
+. $(brew --prefix asdf)/libexec/asdf.sh
 
 export ANDROID_HOME=~/Library/Android/sdk
 export ANDROID_SDK_ROOT=~/Library/Android/sdk
@@ -130,4 +130,21 @@ listening() {
     fi
 }
 
+litra-on() {
+    $DOTFILES/scripts/litra/turn-on.js
+}
+
+litra-off() {
+    $DOTFILES/scripts/litra/turn-off.js
+}
+
+litra-brightness() {
+    $DOTFILES/scripts/litra/set-brightness.js $1
+}
+
 export GPG_TTY=$(tty)
+
+# pnpm
+export PNPM_HOME="/Users/leggetter/Library/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+# pnpm end

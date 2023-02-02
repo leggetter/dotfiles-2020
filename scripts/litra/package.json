@@ -1,0 +1,19 @@
+{
+  "name": "litra-controls",
+  "version": "0.1.0",
+  "description": "Control my Litra Beams",
+  "main": "index.js",
+  "private": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "litra",
+    "litra-beams"
+  ],
+  "author": "Phil Leggetter <phil@leggetter.co.uk> (https://www.leggetter.co.uk)",
+  "license": "ISC",
+  "dependencies": {
+    "litra": "github:leggetter/litra#multiple-device-support"
+  }
+}
