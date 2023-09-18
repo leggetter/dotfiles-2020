@@ -23,11 +23,3 @@ if [[ $(node -v) != *$(asdf latest nodejs) ]]; then
 else
     echo "Latest version of nodejs already installed"
 fi
-
-# Yeoman
-if test ! $(which yo); then  
-    npm install -g yo
-
-    # yo repo (for license, code of conduct)
-    npm install -g generator-repo
-fi

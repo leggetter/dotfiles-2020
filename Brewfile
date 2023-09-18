@@ -21,10 +21,11 @@ brew 'gh'
 cask 'vlc'
 cask 'google-chrome'
 cask 'amazon-music'
-cask 'google-drive-file-stream'
+cask 'google-drive'
 cask 'the-unarchiver'
+cask 'arc'
 
-# mac customisation
+# mac customisation 
 cask 'alfred'
 cask 'bartender'
 cask 'spectacle'
@@ -43,11 +44,12 @@ cask 'fork'
 cask 'ngrok'
 cask 'iterm2'
 cask 'postman'
-cask 'runjs'
+cask 'google-drive'
 
 # utilities
 cask 'clipgrab'
-cask 'kap'
 cask '1password'
 cask 'handbrake'
 cask 'transmission'
+cask 'cleanshot'
+cask 'screen-studio'
