@@ -24,16 +24,19 @@ cask 'amazon-music'
 cask 'google-drive'
 cask 'the-unarchiver'
 cask 'arc'
+cask 'discord'
+cask 'obsidian'
 
 # mac customisation 
 cask 'alfred'
 cask 'bartender'
-cask 'spectacle'
+cask 'rectangle'
 cask 'muzzle'
 cask 'rocket'
 cask 'scroll-reverser'
 cask 'switchresx'
 cask 'caffeine'
+cask 'MonitorControl'
 
 # communications
 cask 'slack'
@@ -45,6 +48,7 @@ cask 'ngrok'
 cask 'iterm2'
 cask 'postman'
 cask 'google-drive'
+cask 'gpg-suite'
 
 # utilities
 cask 'clipgrab'
