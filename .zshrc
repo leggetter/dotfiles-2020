@@ -148,3 +148,28 @@ export GPG_TTY=$(tty)
 export PNPM_HOME="/Users/leggetter/Library/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 # pnpm end
+autoload -U +X bashcompinit && bashcompinit
+complete -o nospace -C /opt/homebrew/bin/terraform terraform
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/leggetter/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/leggetter/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/leggetter/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/leggetter/google-cloud-sdk/completion.zsh.inc'; fi
+
+PATH=~/.console-ninja/.bin:$PATH
+# Created by `pipx` on 2024-09-05 09:01:39
+export PATH="$PATH:/Users/leggetter/.local/bin"
+
+export PATH="$PATH:/Users/leggetter/go/bin"
+
+# bun completions
+[ -s "/Users/leggetter/.bun/_bun" ] && source "/Users/leggetter/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# >>> hookdeck pnpm logs completion >>>
+[ -f "/Users/leggetter/.hookdeck/completions/pnpm-logs.zsh" ] && source "/Users/leggetter/.hookdeck/completions/pnpm-logs.zsh"
+# <<< hookdeck pnpm logs completion <<<
