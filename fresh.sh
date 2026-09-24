@@ -17,6 +17,9 @@ echo "Setting up your Mac..."
 # Symlink the Mackup config file to the home directory
 ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
 
+# Symlink shared agent instructions (Claude Code, Codex)
+./agents/install.sh
+
 # Set macOS preferences
 # We will run this last because this will reload the shell
 source .macos
