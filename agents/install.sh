@@ -32,5 +32,11 @@ link "$SRC/AGENTS.md" "${CODEX_HOME:-$HOME/.codex}/AGENTS.md"
 # Claude Code: user-level instructions, which import AGENTS.md
 link "$SRC/CLAUDE.md" "$HOME/.claude/CLAUDE.md"
 
+# Hookdeck: instructions for work under ~/hookdeck/. Skipped if that folder doesn't exist.
+if [ -d "$HOME/hookdeck" ]; then
+  link "$SRC/hookdeck/AGENTS.md" "$HOME/hookdeck/AGENTS.md"
+  link "$SRC/hookdeck/CLAUDE.md" "$HOME/hookdeck/CLAUDE.md"
+fi
+
 # Add more harnesses here as needed, e.g.:
 # link "$SRC/AGENTS.md" "$HOME/.config/<tool>/AGENTS.md"
