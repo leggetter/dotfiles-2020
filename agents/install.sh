@@ -35,7 +35,6 @@ link "$SRC/CLAUDE.md" "$HOME/.claude/CLAUDE.md"
 # Hookdeck: instructions for work under ~/hookdeck/. Skipped if that folder doesn't exist.
 if [ -d "$HOME/hookdeck" ]; then
   link "$SRC/hookdeck/AGENTS.md" "$HOME/hookdeck/AGENTS.md"
-  link "$SRC/hookdeck/CLAUDE.md" "$HOME/hookdeck/CLAUDE.md"
 fi
 
 # Add more harnesses here as needed, e.g.:
