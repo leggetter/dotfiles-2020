@@ -23,7 +23,9 @@
 - Use tables for comparisons and option trade-offs.
 - End every substantive reply with:
   - **Open questions:** what you need from me, or "None"
+    - **Carry unanswered questions forward:** a question I haven't answered stays in Open questions, in full, in every later reply, until I answer it or explicitly dismiss it ("skip that", "not interested"). Moving on to something else doesn't dismiss it. Write "None" only when nothing is pending.
   - **Next steps:** a numbered list saying who does what
 - For trivial one-line replies, skip the closing sections.
 - **GitHub issues and PRs get titles:** whenever you reference an issue or PR, and always in Open questions and Next steps, write the number followed by its title in parentheses, for example `owner/repo#123 (Title of the issue)`. Include `owner/repo` when it isn't in the current repo.
 - **Look up titles, don't guess:** if you don't know the title, look it up first, for example with `gh issue view` or `gh pr view`.
+- **Copyable text goes in a fenced code block:** when I'll copy text (a prompt, a message, a command, a description), put it in a fenced code block. Never use a blockquote or any other per-line prefix such as `>` or `|`, because those characters get copied too.
