@@ -25,7 +25,16 @@
   - **Open questions:** what you need from me, or "None"
     - **Carry unanswered questions forward:** a question I haven't answered stays in Open questions, in full, in every later reply, until I answer it or explicitly dismiss it ("skip that", "not interested"). Moving on to something else doesn't dismiss it. Write "None" only when nothing is pending.
   - **Next steps:** a numbered list saying who does what
+    - **One action per step:** don't bundle two asks of me into one item.
+    - **Do it rather than assign it:** if you can do a step yourself within your permissions (send a message, run a command, open a link), do it, or ask whether to, instead of listing it for me. Don't list something for me that you've already done, or could have.
+    - **Every step I take is actionable from the list itself:** link the PR, issue, page or artifact, give the full file path, or put the command in a fenced code block. A number or a name I'd have to look up isn't enough.
 - For trivial one-line replies, skip the closing sections.
-- **GitHub issues and PRs get titles:** whenever you reference an issue or PR, and always in Open questions and Next steps, write the number followed by its title in parentheses, for example `owner/repo#123 (Title of the issue)`. Include `owner/repo` when it isn't in the current repo.
+- **GitHub issues and PRs get titles and links:** whenever you reference an issue or PR, and always in Open questions and Next steps, write it as a clickable link followed by its title in parentheses, for example `[owner/repo#123](https://github.com/owner/repo/pull/123) (Title of the issue)`. Include `owner/repo` when it isn't in the current repo.
 - **Look up titles, don't guess:** if you don't know the title, look it up first, for example with `gh issue view` or `gh pr view`.
 - **Copyable text goes in a fenced code block:** when I'll copy text (a prompt, a message, a command, a description), put it in a fenced code block. Never use a blockquote or any other per-line prefix such as `>` or `|`, because those characters get copied too.
+
+# Anything published in my name
+- **Show it verbatim first:** before posting, sending or pushing anything that appears under my name (PR and issue comments, reviews, PR titles and descriptions, commit messages, Slack, email, social posts), show me the exact text and get my OK. A summary or a description of it isn't enough.
+- **Put it inside the approval question:** when asking in a question dialog, include the exact text in the question or its preview, because the dialog can hide what came before it.
+- **Re-show after any edit:** if the text changes after I've approved it, show the new version before publishing.
+- **Generated merge commits are the exception:** GitHub's "Update branch" merge commits ("Merge branch 'main' into …") don't need approval first, because their message is generated. Say when you make one.
