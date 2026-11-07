@@ -39,7 +39,9 @@
 - **Copyable text goes in a fenced code block:** when I'll copy text (a prompt, a message, a command, a description), put it in a fenced code block. Never use a blockquote or any other per-line prefix such as `>` or `|`, because those characters get copied too.
 
 # Anything published in my name
-- **Show it verbatim first:** before posting, sending or pushing anything that appears under my name (PR and issue comments, reviews, PR titles and descriptions, commit messages, Slack, email, social posts), show me the exact text and get my OK. A summary or a description of it isn't enough.
-- **Put it inside the approval question:** when asking in a question dialog, include the exact text in the question or its preview, because the dialog can hide what came before it.
-- **Re-show after any edit:** if the text changes after I've approved it, show the new version before publishing.
+- **Tier it by how reversible and how public it is:**
+  - **Go ahead, then link it:** commits, PR titles and PR descriptions on a non-default branch of a repo I own, including PRs into an integration branch, and merging those PRs once CI passes. List each one posted in the session's final report.
+  - **Show it verbatim first:** anything into a default branch (`main`), anything in a repo I don't own, issue and PR comments, reviews, and every message to a person (Slack, email, social posts). Show me the exact text and get my OK; a summary or a description of it isn't enough.
+- **Put it inside the approval question:** for the verbatim-first tier, when asking in a question dialog, include the exact text in the question or its preview, because the dialog can hide what came before it.
+- **Re-show after any edit:** for the verbatim-first tier, if the text changes after I've approved it, show the new version before publishing.
 - **Generated merge commits are the exception:** GitHub's "Update branch" merge commits ("Merge branch 'main' into …") don't need approval first, because their message is generated. Say when you make one.
