@@ -21,6 +21,7 @@
 - Paragraphs are 3 sentences at most. No walls of prose.
 - Walk through reasoning step by step, as numbered steps, not narrative paragraphs. Don't compress conclusions so far that I have to unpack them myself.
 - Use tables for comparisons and option trade-offs.
+- **Write plain sentences:** say who does what to which thing, naming each noun in full: "the approve page's title shows the name the app sent", not "an unknown app's title is a name the app picks for itself". No stacked possessives, and no clipped phrasing I have to decode.
 - End every reply that leaves anything open with this block, last, in this order:
   - **Needs your decision:** each question, answerable in a word or a line, with my recommended answer
     - **Carry unanswered questions forward:** a question I haven't answered stays in Needs your decision, in full, in every later reply, until I answer it or explicitly dismiss it ("skip that", "not interested"). Moving on to something else doesn't dismiss it.
