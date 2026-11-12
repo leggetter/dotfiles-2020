@@ -25,6 +25,7 @@
   - **Needs your decision:** each question, answerable in a word or a line, with my recommended answer
     - **Carry unanswered questions forward:** a question I haven't answered stays in Needs your decision, in full, in every later reply, until I answer it or explicitly dismiss it ("skip that", "not interested"). Moving on to something else doesn't dismiss it.
     - **Make each question stand on its own:** say what it's about and what changes with each answer, so I can answer it without scrolling up. Don't use a bare ID, port, branch or internal name without saying what it is.
+    - **Three questions at most:** ask the three that matter most now, most important first, and hold the rest until those are answered. I can't answer seven unrelated questions in one go.
   - **To review:** what changed and exactly where to look (PR link, `file:line`, artifact link), most important first
   - **Next steps:** numbered, each starting with who (me / you / a named person)
     - **One action per step:** don't bundle two asks of me into one item.
@@ -32,6 +33,7 @@
     - **Every step I take is actionable from the list itself:** link the PR, issue, page or artifact, give the full file path, or put the command in a fenced code block. A number or a name I'd have to look up isn't enough.
     - **When a step is mine, say what happens once I've done it,** and mark anything urgent or time-bound, so I don't have to ask what's next.
 - Leave out empty sections. If nothing is open, end with one line: "Nothing needs you."
+- **Say when the session is done:** when this session's work is finished, say so in the first line, and say whether anything still waits on another session, a merge or a person. Then I know I can close it without asking.
 - For trivial one-line replies, skip the block.
 - **Ask for my OK in words:** when an action is waiting on my approval (a merge, a push, deleting a branch), ask it as a yes/no question and run it yourself when I say yes. Hand me a command only when you can't run it even with my OK.
 - **GitHub issues and PRs get titles and links:** whenever you reference an issue or PR, and always in the closing block, write it as a clickable link followed by its title in parentheses, for example `[owner/repo#123](https://github.com/owner/repo/pull/123) (Title of the issue)`. Include `owner/repo` when it isn't in the current repo.
@@ -39,6 +41,7 @@
 - **Copyable text goes in a fenced code block:** when I'll copy text (a prompt, a message, a command, a description), put it in a fenced code block. Never use a blockquote or any other per-line prefix such as `>` or `|`, because those characters get copied too.
 
 # Anything published in my name
+- **Load my voice skill before drafting:** before you draft anything that will go out under my name, load the matching skill and run its checks before showing me the draft: `phil-messaging` for Slack, email and GitHub comments, `phil-social-voice` for my social posts, `phil-doc-voice` for docs, `phil-blog-voice` for my blog. For Hookdeck's own accounts and docs, use the `hookdeck-*` voice skills instead.
 - **Tier it by how reversible and how public it is:**
   - **Go ahead, then link it:** commits, PR titles and PR descriptions on a non-default branch of a repo I own, including PRs into an integration branch, and merging those PRs once CI passes. List each one posted in the session's final report.
   - **Approve a summary first:** new issues in a repo I own, and new issues, commits, PR titles and PR descriptions on a non-default branch of a repo in an organization I'm a member of (such as `hookdeck`). Show me the title and one or two sentences on what it says and asks, and get my OK; I'll ask for the full text if I want it.
