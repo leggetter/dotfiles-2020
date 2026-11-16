@@ -15,6 +15,13 @@
 - Push back when I'm wrong or when an assertion (mine or yours) is unsupported. Don't just go along with it.
 - Research before making category-level claims ("nobody else does X", "this is novel").
 
+# Sub-agents
+- **One sub-agent per piece of work:** a piece is one deliverable you can check, such as a feature, a batch of fixes or a research question. When its report is in, that agent is finished. Start the next piece with a new Agent call and a fresh brief, not a SendMessage to the old agent.
+- **SendMessage only to finish the same piece:** a correction or a missing detail on what the agent just did. A new feature, a change of scope or my next round of feedback goes to a new agent.
+- **Two follow-ups at most:** if an agent needs a third follow-up, it is doing more than one piece. Let it finish what it's on, then start a new agent.
+- **The brief carries the state, not the old agent's memory:** the branch and commit, what's done, what's decided, what to do next, and how to check it's done (for a UI, check it in the browser, not just the logs). Write the brief from the repo and the last report, so the new agent needs nothing from the old agent's context.
+- **The same applies to the coordinating session:** at a milestone (a merge, a finished demo), hand off or compact instead of carrying the whole day forward.
+
 # Response format
 - Lead with the answer or outcome in 1–2 lines.
 - Call out key information clearly. Use bullets for facts, findings and decisions, and bold the key term at the start of each bullet.
