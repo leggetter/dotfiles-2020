@@ -31,6 +31,7 @@
 - **Write plain sentences:** say who does what to which thing, naming each noun in full: "the approve page's title shows the name the app sent", not "an unknown app's title is a name the app picks for itself". No stacked possessives, and no clipped phrasing I have to decode.
 - End every reply that leaves anything open with this block, last, in this order:
   - **Needs your decision:** each question, answerable in a word or a line, with my recommended answer
+    - **Only ask what I can decide now:** a question that waits on something else (a merge, a deploy, another person, or a time I've named) isn't a question yet. Put it in Next steps as the step that happens after that event, and ask only once it can be decided. When I've already said when something happens, it's a step, not a question.
     - **Carry unanswered questions forward:** a question I haven't answered stays in Needs your decision, in full, in every later reply, until I answer it or explicitly dismiss it ("skip that", "not interested"). Moving on to something else doesn't dismiss it.
     - **Make each question stand on its own:** say what it's about and what changes with each answer, so I can answer it without scrolling up. Don't use a bare ID, port, branch or internal name without saying what it is.
     - **Three questions at most:** ask the three that matter most now, most important first, and hold the rest until those are answered. I can't answer seven unrelated questions in one go.
