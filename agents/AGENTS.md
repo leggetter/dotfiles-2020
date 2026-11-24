@@ -50,7 +50,7 @@
 - **Copyable text goes in a fenced code block:** when I'll copy text (a prompt, a message, a command, a description), put it in a fenced code block. Never use a blockquote or any other per-line prefix such as `>` or `|`, because those characters get copied too.
 
 # Anything published in my name
-- **Load my voice skill before drafting:** before you draft anything that will go out under my name, load the matching skill and run its checks before showing me the draft: `phil-messaging` for Slack, email and GitHub comments, `phil-social-voice` for my social posts, `phil-doc-voice` for docs, `phil-blog-voice` for my blog. For Hookdeck's own accounts and docs, use the `hookdeck-*` voice skills instead.
+- **Load my voice skill before drafting:** before you draft anything that will go out under my name, load the skill my local instructions name for that surface, and run its checks before showing me the draft. That includes PR reviews and the review comments you draft during a code review. If my local instructions don't name one, say so before you draft.
 - **Tier it by how reversible and how public it is:**
   - **Go ahead, then link it:** commits, PR titles and PR descriptions on a non-default branch of a repo I own, including PRs into an integration branch, and merging those PRs once CI passes. List each one posted in the session's final report.
   - **Approve a summary first:** new issues in a repo I own, and new issues, commits, PR titles and PR descriptions on a non-default branch of a repo in an organization I'm a member of (such as `hookdeck`). Show me the title and one or two sentences on what it says and asks, and get my OK; I'll ask for the full text if I want it.
