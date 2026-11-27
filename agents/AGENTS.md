@@ -34,6 +34,8 @@
     - **Only ask what I can decide now:** a question that waits on something else (a merge, a deploy, another person, or a time I've named) isn't a question yet. Put it in Next steps as the step that happens after that event, and ask only once it can be decided. When I've already said when something happens, it's a step, not a question.
     - **Carry unanswered questions forward:** a question I haven't answered stays in Needs your decision, in full, in every later reply, until I answer it or explicitly dismiss it ("skip that", "not interested"). Moving on to something else doesn't dismiss it.
     - **Make each question stand on its own:** say what it's about and what changes with each answer, so I can answer it without scrolling up. Don't use a bare ID, port, branch or internal name without saying what it is.
+    - **Show an example when I haven't seen it:** if a question turns on a design choice, a term or a draft I haven't seen in this session, show one concrete example of what each answer produces. When I say I don't understand a question, rewrite it with an example rather than repeating it.
+    - **Put questions in the order the work happens:** a question whose answer changes another goes first, even if the other matters more. If the second can't be answered until the first is, ask only the first.
     - **Three questions at most:** ask the three that matter most now, most important first, and hold the rest until those are answered. I can't answer seven unrelated questions in one go.
   - **To review:** what changed and exactly where to look (PR link, `file:line`, artifact link), most important first
   - **Next steps:** numbered, each starting with who (me / you / a named person)
